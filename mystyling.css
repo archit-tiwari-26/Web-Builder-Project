@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #f0e68c;
+    background-color: #111;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #ffcc33;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffcc33;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1.5rem auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc33;
+    color: #111;
+    transform: scale(1.05);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc33;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+    color: #ffcc33;
+}
+
+.landing {
+    height: 100vh;
+    background: url('https://source.unsplash.com/featured/?diwali,lights') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+    position: relative;
+}
+
+.landing-content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.landing-content p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.diwali-gif {
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #ffcc33;
+}
+
+.about {
+    padding: 4rem 1rem;
+    background-color: #222;
+    color: #f0e68c;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(255, 204, 51, 0.5);
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+.safe-diwali {
+    padding: 4rem 1rem;
+    background-color: #222;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(255, 204, 51, 0.5);
+}
+
+.safe-diwali-content {
+    display: none;
+    margin-top: 20px;
+    color: #f0e68c;
+}
+
+.gallery {
+    padding: 4rem 1rem;
+    background-color: #333;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sweet-container {
+    margin-top: 20px;
+    display: none;
+    background-color: #ffcc33;
+    color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px #ffcc33;
+    overflow: hidden;
+}
+
+.sweet-image {
+    width: 80%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
